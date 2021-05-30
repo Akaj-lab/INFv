@@ -1,0 +1,41 @@
+/*Ta koda je za ozadje*/
+body { 
+    background: url(./assets/background.png) no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/*Ta koda spreminja barvo bloka, ko greš čez njega*/
+li a:hover {
+    background-color: #111;
+}
+
+.wDiv {
+    position: relative;
+    background-color: #fafaff;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:#007BAC;
+    border-width: 5px;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    margin: 5%;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    table-layout: auto;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px) {
+    table {
+        table-layout: fixed;
+    }
+}
